@@ -1,6 +1,4 @@
 Assignment-1 (5071089,VALLAMKONDA VISHAL)
-program composed by two processes using pipe(I)
-In this program the user inputs two numbers A and B, random signal is sent through the pipe, every time when a signal is sent it computes the sum of A and B and increment with respect to last time and the out put is stored in a log file
 installing and running
 Machine requires a python 3 installation and the required libraries are pandas,time,datetime,random and string. script to install required libraries
 $ pip3 install pandas && pip3 install time && pip3 install datetime && pip3 install random && pip3 install string
