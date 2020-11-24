@@ -5,7 +5,7 @@ import random
 import string
 
 """
-matter(user) shouls
+the given variablesa a and b to be added and incremented
 """
 a = int(input("Enter 1st num -> "))
 b = int(input("Enter 2nd num -> "))
@@ -15,7 +15,7 @@ values=[]
 timestamp = []
 a = time.monotonic()
 """
-matter
+after the incrementatation the is a comparision between the twoby using strind command
 """
 while(1):
     b = time.monotonic()
@@ -28,9 +28,6 @@ while(1):
         values.append(sums)
         timestamp.append(ct)
         print(sums)
-"""
-matter
-"""
     if(ch == 'z' or ch == 'Z'):
         df = pd.DataFrame.from_dict({'TimeStamp':timestamp,'Duration': seconds,'Sum Value':values})
         df.to_excel('exported.xlsx', header=True, index=False)
